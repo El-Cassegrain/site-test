@@ -1,0 +1,70 @@
+body {
+    background: #ececec url('../img/pattern-fond-body.png') repeat;
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+header.header {
+    position: relative;
+    font-family: "Anton", serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: skyblue;
+    background-color: #fff;
+    height: 8rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+header.header h1 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    text-shadow: 3px -3px 0 lavender;
+}
+
+#list_section {
+    margin-top: 3rem;
+    text-align: center
+}
+
+#list-section h1 {
+    text-align: center;
+}
+
+li {
+    color: grey;
+    background-color: #fff;
+    padding: 10px;
+    list-style-type: none;
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    
+}
+
+input[type='text'] {
+    font-size: 0.9em;
+    padding: 6px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type='submit'] {
+    font-size: 1.1rem;
+}
+
+#newItemButton {
+    display: none;
+}
+
+#itemField {
+    margin-top: 60px;
+}
